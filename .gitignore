@@ -1,3 +1,16 @@
 data/animes.csv
 data/profiles.csv
 data/reviews.csv
+code/.ipynb_checkpoints/ collab_content_recc_1-checkpoint.ipynb
+code/.ipynb_checkpoints/collab_recc_1-checkpoint.ipynb
+code/.ipynb_checkpoints/collab_recc_2-checkpoint.ipynb
+code/.ipynb_checkpoints/content_recc_final_model-checkpoint.ipynb
+code/.ipynb_checkpoints/EDA_2-checkpoint.ipynb
+code/.ipynb_checkpoints/first_model_content_recc-checkpoint.ipynb
+code/.ipynb_checkpoints/main_eda-checkpoint.ipynb
+data/df_anime_export.csv
+data/df_prof_rev_anime_clean.csv
+data/df_profile_export.csv
+data/df_review_export.csv
+data/merged_df_export.csv
+data/merged_rev_df_export.csv
