@@ -14,3 +14,5 @@ data/df_profile_export.csv
 data/df_review_export.csv
 data/merged_df_export.csv
 data/merged_rev_df_export.csv
+data/df_anime_all_cleaned.csv
+data/df_anime_nomovie.csv
