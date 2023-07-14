@@ -29,6 +29,10 @@ Then there are files which I created by merging:
   - dropped all shows with less than 2 episodes. This all was also done in EDA 2
 - df_anime_all_cleaned:
   - came from EDA 3, just applied some more preprocessing steps to df_anime_export so I wouldnt have to do it again and again on the rec systems
+<br>
+<br>
+
+- As a heads up, I cannot upload these csvs to github because the size is too large. I have compiled and given the output of my notebooks.
  
 <br>
 <br>
@@ -78,6 +82,7 @@ I will explain what is going on in each file here:
   - I request 10, I get 5.
     - Clearly something is wrong with the way shows get filtered in. Didn't have time to figure this out before presentation
 - Post Flatiron I will keep trying to make this hybrid model work.
+- As a heads up, right now it will not run on a weak machine. My machine isnt able to process the setup I have right now. A more powerful machine should be able to.
 
 [Content Rec Streamlit](./code/streamlit_content_recc.ipynb) under the file streamlit_content_recc
 - Contains process of deploying model to streamlit for content rec system
