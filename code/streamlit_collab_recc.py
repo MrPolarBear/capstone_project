@@ -54,16 +54,16 @@ user_type = st.radio("Are you a new user or a returning user?", ("New User", "Re
 st.write("IN THE NEW USER, A RETURNING USER MAY ALSO UES THIS OPTION TO PUT IN A NEW REVIEW AND GET RECOMMENDATIONS BASED ON THAT")
 
 if user_type == "New User":
-    # New user scenario
+    # New user 
     user_id = st.text_input("Enter your user ID")
     show_id = st.text_input("Enter the show ID")
     rating = st.slider("Rate the show (1-10)", 1, 10)
     
-    # Update the training dataset with the user's rating
+    # Update the training dataset with new user stuff
     new_row = pd.DataFrame({'profile': [user_id], 'uid': [show_id], 'review_score': [rating]})
     df_touse_updated = pd.concat([df_touse, new_row], ignore_index=True)
 
-    # Update the model with the updated training dataset
+    # Update the model with the updated user info
     df_updated = Dataset.load_from_df(df_touse_updated, Reader(rating_scale=(1, 10)))
     trainset_updated = df_updated.build_full_trainset()
     model_updated = SVD()
